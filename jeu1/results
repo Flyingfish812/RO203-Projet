@@ -1,0 +1,672 @@
+\documentclass{article}
+
+\usepackage[french]{babel}
+\usepackage [utf8] {inputenc} % utf-8 / latin1 
+\usepackage{multicol}
+
+\setlength{\hoffset}{-18pt}
+\setlength{\oddsidemargin}{0pt} % Marge gauche sur pages impaires
+\setlength{\evensidemargin}{9pt} % Marge gauche sur pages paires
+\setlength{\marginparwidth}{54pt} % Largeur de note dans la marge
+\setlength{\textwidth}{481pt} % Largeur de la zone de texte (17cm)
+\setlength{\voffset}{-18pt} % Bon pour DOS
+\setlength{\marginparsep}{7pt} % Séparation de la marge
+\setlength{\topmargin}{0pt} % Pas de marge en haut
+\setlength{\headheight}{13pt} % Haut de page
+\setlength{\headsep}{10pt} % Entre le haut de page et le texte
+\setlength{\footskip}{27pt} % Bas de page + séparation
+\setlength{\textheight}{668pt} % Hauteur de la zone de texte (25cm)
+
+\begin{document}
+\begin{center}
+\renewcommand{\arraystretch}{1.4} 
+ \begin{tabular}{lrrrr}
+	\hline
+ & \multicolumn{2}{c}{\textbf{cplex}} & \multicolumn{2}{c}{\textbf{heuristique}}\\
+\textbf{Instance}  & \textbf{Temps (s)} & \textbf{Optimal ?}  & \textbf{Temps (s)} & \textbf{Optimal ?} \\\hline
+
+generated\_5x5\_k5\_d20\_id1.txt & 0.87 & 
+$\times$
+ & 0.28 & 
+$\times$
+\\
+generated\_5x5\_k5\_d20\_id10.txt & 0.91 & 
+$\times$
+ & 0.28 & 
+$\times$
+\\
+generated\_5x5\_k5\_d20\_id2.txt & 0.38 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+generated\_5x5\_k5\_d20\_id3.txt & 0.04 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+generated\_5x5\_k5\_d20\_id4.txt & 0.17 & 
+$\times$
+ & 0.02 & 
+$\times$
+\\
+generated\_5x5\_k5\_d20\_id5.txt & 0.19 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+generated\_5x5\_k5\_d20\_id6.txt & 0.22 & 
+$\times$
+ & 0.03 & 
+$\times$
+\\
+generated\_5x5\_k5\_d20\_id7.txt & 0.23 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+generated\_5x5\_k5\_d20\_id8.txt & 0.03 & 
+$\times$
+ & 0.12 & 
+$\times$
+\\
+generated\_5x5\_k5\_d20\_id9.txt & 0.22 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+generated\_5x5\_k5\_d40\_id1.txt & 0.03 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+generated\_5x5\_k5\_d40\_id10.txt & 0.03 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+generated\_5x5\_k5\_d40\_id2.txt & 0.18 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+generated\_5x5\_k5\_d40\_id3.txt & 0.19 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+generated\_5x5\_k5\_d40\_id4.txt & 0.23 & 
+$\times$
+ & 0.01 & 
+$\times$
+\\
+generated\_5x5\_k5\_d40\_id5.txt & 0.03 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+generated\_5x5\_k5\_d40\_id6.txt & 0.18 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+generated\_5x5\_k5\_d40\_id7.txt & 0.16 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+generated\_5x5\_k5\_d40\_id8.txt & 0.45 & 
+$\times$
+ & 0.01 & 
+$\times$
+\\
+generated\_5x5\_k5\_d40\_id9.txt & 0.04 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+generated\_5x5\_k5\_d50\_id1.txt & 0.02 & 
+$\times$
+ & 0.01 & 
+$\times$
+\\
+generated\_5x5\_k5\_d50\_id10.txt & 0.22 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+generated\_5x5\_k5\_d50\_id2.txt & 0.66 & 
+$\times$
+ & 0.01 & 
+$\times$
+\\
+generated\_5x5\_k5\_d50\_id3.txt & 0.24 & 
+$\times$
+ & 0.01 & 
+$\times$
+\\
+generated\_5x5\_k5\_d50\_id4.txt & 0.2 & 
+$\times$
+ & 0.01 & 
+$\times$
+\\
+generated\_5x5\_k5\_d50\_id5.txt & 0.16 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+generated\_5x5\_k5\_d50\_id6.txt & 0.27 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+generated\_5x5\_k5\_d50\_id7.txt & 0.29 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+generated\_5x5\_k5\_d50\_id8.txt & 0.26 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+\hline\end{tabular}
+\end{center}
+
+\newpage
+\begin{center}
+\renewcommand{\arraystretch}{1.4} 
+ \begin{tabular}{lrrrr}
+	\hline
+ & \multicolumn{2}{c}{\textbf{cplex}} & \multicolumn{2}{c}{\textbf{heuristique}}\\
+\textbf{Instance}  & \textbf{Temps (s)} & \textbf{Optimal ?}  & \textbf{Temps (s)} & \textbf{Optimal ?} \\\hline
+
+generated\_5x5\_k5\_d50\_id9.txt & 0.22 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+generated\_8x6\_k6\_d20\_id1.txt & 16.5 & 
+$\times$
+ & 0.06 & 
+$\times$
+\\
+generated\_8x6\_k6\_d20\_id10.txt & 13.59 & 
+$\times$
+ & 4.28 & 
+\\
+generated\_8x6\_k6\_d20\_id2.txt & 1.05 & 
+$\times$
+ & 0.05 & 
+$\times$
+\\
+generated\_8x6\_k6\_d20\_id3.txt & 36.23 & 
+$\times$
+ & 0.03 & 
+$\times$
+\\
+generated\_8x6\_k6\_d20\_id4.txt & 3.06 & 
+$\times$
+ & 0.02 & 
+$\times$
+\\
+generated\_8x6\_k6\_d20\_id5.txt & 3.7 & 
+$\times$
+ & 0.15 & 
+$\times$
+\\
+generated\_8x6\_k6\_d20\_id6.txt & 155.86 & 
+$\times$
+ & 0.03 & 
+$\times$
+\\
+generated\_8x6\_k6\_d20\_id7.txt & 7.38 & 
+$\times$
+ & 0.02 & 
+$\times$
+\\
+generated\_8x6\_k6\_d20\_id8.txt & 2.15 & 
+$\times$
+ & 0.02 & 
+$\times$
+\\
+generated\_8x6\_k6\_d20\_id9.txt & 2.53 & 
+$\times$
+ & 0.17 & 
+$\times$
+\\
+generated\_8x6\_k6\_d40\_id1.txt & 80.95 & 
+$\times$
+ & 0.03 & 
+$\times$
+\\
+generated\_8x6\_k6\_d40\_id10.txt & 25.84 & 
+$\times$
+ & 0.03 & 
+$\times$
+\\
+generated\_8x6\_k6\_d40\_id2.txt & 18.15 & 
+$\times$
+ & 0.04 & 
+$\times$
+\\
+generated\_8x6\_k6\_d40\_id3.txt & 2.06 & 
+$\times$
+ & 0.17 & 
+$\times$
+\\
+generated\_8x6\_k6\_d40\_id4.txt & 41.02 & 
+$\times$
+ & 0.03 & 
+$\times$
+\\
+generated\_8x6\_k6\_d40\_id5.txt & 44.4 & 
+$\times$
+ & 3.81 & 
+\\
+generated\_8x6\_k6\_d40\_id6.txt & 41.39 & 
+$\times$
+ & 0.02 & 
+$\times$
+\\
+generated\_8x6\_k6\_d40\_id7.txt & 10.52 & 
+$\times$
+ & 0.02 & 
+$\times$
+\\
+generated\_8x6\_k6\_d40\_id8.txt & 10.94 & 
+$\times$
+ & 0.16 & 
+$\times$
+\\
+generated\_8x6\_k6\_d40\_id9.txt & 7.86 & 
+$\times$
+ & 0.03 & 
+$\times$
+\\
+generated\_8x6\_k6\_d50\_id1.txt & 56.26 & 
+$\times$
+ & 0.02 & 
+$\times$
+\\
+generated\_8x6\_k6\_d50\_id10.txt & 84.44 & 
+$\times$
+ & 0.04 & 
+$\times$
+\\
+generated\_8x6\_k6\_d50\_id2.txt & 5.77 & 
+$\times$
+ & 0.15 & 
+$\times$
+\\
+generated\_8x6\_k6\_d50\_id3.txt & 75.98 & 
+$\times$
+ & 0.03 & 
+$\times$
+\\
+generated\_8x6\_k6\_d50\_id4.txt & 2.6 & 
+$\times$
+ & 0.02 & 
+$\times$
+\\
+generated\_8x6\_k6\_d50\_id5.txt & 8.36 & 
+$\times$
+ & 0.02 & 
+$\times$
+\\
+generated\_8x6\_k6\_d50\_id6.txt & 9.8 & 
+$\times$
+ & 0.18 & 
+$\times$
+\\
+generated\_8x6\_k6\_d50\_id7.txt & 20.74 & 
+$\times$
+ & 0.02 & 
+$\times$
+\\
+generated\_8x6\_k6\_d50\_id8.txt & 65.71 & 
+$\times$
+ & 0.33 & 
+$\times$
+\\
+\hline\end{tabular}
+\end{center}
+
+\newpage
+\begin{center}
+\renewcommand{\arraystretch}{1.4} 
+ \begin{tabular}{lrrrr}
+	\hline
+ & \multicolumn{2}{c}{\textbf{cplex}} & \multicolumn{2}{c}{\textbf{heuristique}}\\
+\textbf{Instance}  & \textbf{Temps (s)} & \textbf{Optimal ?}  & \textbf{Temps (s)} & \textbf{Optimal ?} \\\hline
+
+generated\_8x6\_k6\_d50\_id9.txt & 3.32 & 
+$\times$
+ & 0.02 & 
+$\times$
+\\
+generated\_5x5\_k5\_d20\_id1.txt & 0.87 & 
+$\times$
+ & 0.28 & 
+$\times$
+\\
+generated\_5x5\_k5\_d20\_id10.txt & 0.91 & 
+$\times$
+ & 0.28 & 
+$\times$
+\\
+generated\_5x5\_k5\_d20\_id2.txt & 0.38 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+generated\_5x5\_k5\_d20\_id3.txt & 0.04 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+generated\_5x5\_k5\_d20\_id4.txt & 0.17 & 
+$\times$
+ & 0.02 & 
+$\times$
+\\
+generated\_5x5\_k5\_d20\_id5.txt & 0.19 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+generated\_5x5\_k5\_d20\_id6.txt & 0.22 & 
+$\times$
+ & 0.03 & 
+$\times$
+\\
+generated\_5x5\_k5\_d20\_id7.txt & 0.23 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+generated\_5x5\_k5\_d20\_id8.txt & 0.03 & 
+$\times$
+ & 0.12 & 
+$\times$
+\\
+generated\_5x5\_k5\_d20\_id9.txt & 0.22 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+generated\_5x5\_k5\_d40\_id1.txt & 0.03 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+generated\_5x5\_k5\_d40\_id10.txt & 0.03 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+generated\_5x5\_k5\_d40\_id2.txt & 0.18 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+generated\_5x5\_k5\_d40\_id3.txt & 0.19 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+generated\_5x5\_k5\_d40\_id4.txt & 0.23 & 
+$\times$
+ & 0.01 & 
+$\times$
+\\
+generated\_5x5\_k5\_d40\_id5.txt & 0.03 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+generated\_5x5\_k5\_d40\_id6.txt & 0.18 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+generated\_5x5\_k5\_d40\_id7.txt & 0.16 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+generated\_5x5\_k5\_d40\_id8.txt & 0.45 & 
+$\times$
+ & 0.01 & 
+$\times$
+\\
+generated\_5x5\_k5\_d40\_id9.txt & 0.04 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+generated\_5x5\_k5\_d50\_id1.txt & 0.02 & 
+$\times$
+ & 0.01 & 
+$\times$
+\\
+generated\_5x5\_k5\_d50\_id10.txt & 0.22 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+generated\_5x5\_k5\_d50\_id2.txt & 0.66 & 
+$\times$
+ & 0.01 & 
+$\times$
+\\
+generated\_5x5\_k5\_d50\_id3.txt & 0.24 & 
+$\times$
+ & 0.01 & 
+$\times$
+\\
+generated\_5x5\_k5\_d50\_id4.txt & 0.2 & 
+$\times$
+ & 0.01 & 
+$\times$
+\\
+generated\_5x5\_k5\_d50\_id5.txt & 0.16 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+generated\_5x5\_k5\_d50\_id6.txt & 0.27 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+generated\_5x5\_k5\_d50\_id7.txt & 0.29 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+generated\_5x5\_k5\_d50\_id8.txt & 0.26 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+\hline\end{tabular}
+\end{center}
+
+\newpage
+\begin{center}
+\renewcommand{\arraystretch}{1.4} 
+ \begin{tabular}{lrrrr}
+	\hline
+ & \multicolumn{2}{c}{\textbf{cplex}} & \multicolumn{2}{c}{\textbf{heuristique}}\\
+\textbf{Instance}  & \textbf{Temps (s)} & \textbf{Optimal ?}  & \textbf{Temps (s)} & \textbf{Optimal ?} \\\hline
+
+generated\_5x5\_k5\_d50\_id9.txt & 0.22 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+generated\_8x6\_k6\_d20\_id1.txt & 16.5 & 
+$\times$
+ & 0.06 & 
+$\times$
+\\
+generated\_8x6\_k6\_d20\_id10.txt & 13.59 & 
+$\times$
+ & 4.28 & 
+\\
+generated\_8x6\_k6\_d20\_id2.txt & 1.05 & 
+$\times$
+ & 0.05 & 
+$\times$
+\\
+generated\_8x6\_k6\_d20\_id3.txt & 36.23 & 
+$\times$
+ & 0.03 & 
+$\times$
+\\
+generated\_8x6\_k6\_d20\_id4.txt & 3.06 & 
+$\times$
+ & 0.02 & 
+$\times$
+\\
+generated\_8x6\_k6\_d20\_id5.txt & 3.7 & 
+$\times$
+ & 0.15 & 
+$\times$
+\\
+generated\_8x6\_k6\_d20\_id6.txt & 155.86 & 
+$\times$
+ & 0.03 & 
+$\times$
+\\
+generated\_8x6\_k6\_d20\_id7.txt & 7.38 & 
+$\times$
+ & 0.02 & 
+$\times$
+\\
+generated\_8x6\_k6\_d20\_id8.txt & 2.15 & 
+$\times$
+ & 0.02 & 
+$\times$
+\\
+generated\_8x6\_k6\_d20\_id9.txt & 2.53 & 
+$\times$
+ & 0.17 & 
+$\times$
+\\
+generated\_8x6\_k6\_d40\_id1.txt & 80.95 & 
+$\times$
+ & 0.03 & 
+$\times$
+\\
+generated\_8x6\_k6\_d40\_id10.txt & 25.84 & 
+$\times$
+ & 0.03 & 
+$\times$
+\\
+generated\_8x6\_k6\_d40\_id2.txt & 18.15 & 
+$\times$
+ & 0.04 & 
+$\times$
+\\
+generated\_8x6\_k6\_d40\_id3.txt & 2.06 & 
+$\times$
+ & 0.17 & 
+$\times$
+\\
+generated\_8x6\_k6\_d40\_id4.txt & 41.02 & 
+$\times$
+ & 0.03 & 
+$\times$
+\\
+generated\_8x6\_k6\_d40\_id5.txt & 44.4 & 
+$\times$
+ & 3.81 & 
+\\
+generated\_8x6\_k6\_d40\_id6.txt & 41.39 & 
+$\times$
+ & 0.02 & 
+$\times$
+\\
+generated\_8x6\_k6\_d40\_id7.txt & 10.52 & 
+$\times$
+ & 0.02 & 
+$\times$
+\\
+generated\_8x6\_k6\_d40\_id8.txt & 10.94 & 
+$\times$
+ & 0.16 & 
+$\times$
+\\
+generated\_8x6\_k6\_d40\_id9.txt & 7.86 & 
+$\times$
+ & 0.03 & 
+$\times$
+\\
+generated\_8x6\_k6\_d50\_id1.txt & 56.26 & 
+$\times$
+ & 0.02 & 
+$\times$
+\\
+generated\_8x6\_k6\_d50\_id10.txt & 84.44 & 
+$\times$
+ & 0.04 & 
+$\times$
+\\
+generated\_8x6\_k6\_d50\_id2.txt & 5.77 & 
+$\times$
+ & 0.15 & 
+$\times$
+\\
+generated\_8x6\_k6\_d50\_id3.txt & 75.98 & 
+$\times$
+ & 0.03 & 
+$\times$
+\\
+generated\_8x6\_k6\_d50\_id4.txt & 2.6 & 
+$\times$
+ & 0.02 & 
+$\times$
+\\
+generated\_8x6\_k6\_d50\_id5.txt & 8.36 & 
+$\times$
+ & 0.02 & 
+$\times$
+\\
+generated\_8x6\_k6\_d50\_id6.txt & 9.8 & 
+$\times$
+ & 0.18 & 
+$\times$
+\\
+generated\_8x6\_k6\_d50\_id7.txt & 20.74 & 
+$\times$
+ & 0.02 & 
+$\times$
+\\
+generated\_8x6\_k6\_d50\_id8.txt & 65.71 & 
+$\times$
+ & 0.33 & 
+$\times$
+\\
+\hline\end{tabular}
+\end{center}
+
+\newpage
+\begin{center}
+\renewcommand{\arraystretch}{1.4} 
+ \begin{tabular}{lrrrr}
+	\hline
+ & \multicolumn{2}{c}{\textbf{cplex}} & \multicolumn{2}{c}{\textbf{heuristique}}\\
+\textbf{Instance}  & \textbf{Temps (s)} & \textbf{Optimal ?}  & \textbf{Temps (s)} & \textbf{Optimal ?} \\\hline
+
+generated\_8x6\_k6\_d50\_id9.txt & 3.32 & 
+$\times$
+ & 0.02 & 
+$\times$
+\\
+\hline\end{tabular}
+\end{center}
+
+
+\end{document}
