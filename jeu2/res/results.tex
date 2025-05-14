@@ -1,0 +1,515 @@
+\documentclass{article}
+
+\usepackage[french]{babel}
+\usepackage [utf8] {inputenc} % utf-8 / latin1 
+\usepackage{multicol}
+
+\setlength{\hoffset}{-18pt}
+\setlength{\oddsidemargin}{0pt} % Marge gauche sur pages impaires
+\setlength{\evensidemargin}{9pt} % Marge gauche sur pages paires
+\setlength{\marginparwidth}{54pt} % Largeur de note dans la marge
+\setlength{\textwidth}{481pt} % Largeur de la zone de texte (17cm)
+\setlength{\voffset}{-18pt} % Bon pour DOS
+\setlength{\marginparsep}{7pt} % Séparation de la marge
+\setlength{\topmargin}{0pt} % Pas de marge en haut
+\setlength{\headheight}{13pt} % Haut de page
+\setlength{\headsep}{10pt} % Entre le haut de page et le texte
+\setlength{\footskip}{27pt} % Bas de page + séparation
+\setlength{\textheight}{668pt} % Hauteur de la zone de texte (25cm)
+
+\begin{document}
+\begin{center}
+\renewcommand{\arraystretch}{1.4} 
+ \begin{tabular}{lrrrr}
+	\hline
+ & \multicolumn{2}{c}{\textbf{cplex}} & \multicolumn{2}{c}{\textbf{heuristic}}\\
+\textbf{Instance}  & \textbf{Temps (s)} & \textbf{Optimal ?}  & \textbf{Temps (s)} & \textbf{Optimal ?} \\\hline
+
+unequal\_n4\_d20\_1.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n4\_d20\_2.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n4\_d20\_3.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n4\_d20\_4.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n4\_d20\_5.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n4\_d20\_6.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n4\_d20\_7.txt & 0.01 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n4\_d20\_8.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n4\_d20\_9.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n4\_d20\_10.txt & 0.01 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n4\_d30\_1.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n4\_d30\_2.txt & 0.01 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n4\_d30\_3.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n4\_d30\_4.txt & 0.01 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n4\_d30\_5.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n4\_d30\_6.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n4\_d30\_7.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n4\_d30\_8.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n4\_d30\_9.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n4\_d30\_10.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n4\_d40\_1.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n4\_d40\_2.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n4\_d40\_3.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n4\_d40\_4.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n4\_d40\_5.txt & 0.03 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n4\_d40\_6.txt & 0.03 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+\hline\end{tabular}
+\end{center}
+
+\newpage
+\begin{center}
+\renewcommand{\arraystretch}{1.4} 
+ \begin{tabular}{lrrrr}
+	\hline
+ & \multicolumn{2}{c}{\textbf{cplex}} & \multicolumn{2}{c}{\textbf{heuristic}}\\
+\textbf{Instance}  & \textbf{Temps (s)} & \textbf{Optimal ?}  & \textbf{Temps (s)} & \textbf{Optimal ?} \\\hline
+
+unequal\_n4\_d40\_7.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n4\_d40\_8.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n4\_d40\_9.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n4\_d40\_10.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n5\_d20\_1.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n5\_d20\_2.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n5\_d20\_3.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n5\_d20\_4.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n5\_d20\_5.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n5\_d20\_6.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n5\_d20\_7.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n5\_d20\_8.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n5\_d20\_9.txt & 0.02 & 
+$\times$
+ & 0.01 & 
+$\times$
+\\
+unequal\_n5\_d20\_10.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n5\_d30\_1.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n5\_d30\_2.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n5\_d30\_3.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n5\_d30\_4.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n5\_d30\_5.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n5\_d30\_6.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n5\_d30\_7.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n5\_d30\_8.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n5\_d30\_9.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n5\_d30\_10.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n5\_d40\_1.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n5\_d40\_2.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n5\_d40\_3.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+\hline\end{tabular}
+\end{center}
+
+\newpage
+\begin{center}
+\renewcommand{\arraystretch}{1.4} 
+ \begin{tabular}{lrrrr}
+	\hline
+ & \multicolumn{2}{c}{\textbf{cplex}} & \multicolumn{2}{c}{\textbf{heuristic}}\\
+\textbf{Instance}  & \textbf{Temps (s)} & \textbf{Optimal ?}  & \textbf{Temps (s)} & \textbf{Optimal ?} \\\hline
+
+unequal\_n5\_d40\_4.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n5\_d40\_5.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n5\_d40\_6.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n5\_d40\_7.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n5\_d40\_8.txt & 0.06 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n5\_d40\_9.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n5\_d40\_10.txt & 0.01 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n6\_d20\_1.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n6\_d20\_2.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n6\_d20\_3.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n6\_d20\_4.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n6\_d20\_5.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n6\_d20\_6.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n6\_d20\_7.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n6\_d20\_8.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n6\_d20\_9.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n6\_d20\_10.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n6\_d30\_1.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n6\_d30\_2.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n6\_d30\_3.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n6\_d30\_4.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n6\_d30\_5.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n6\_d30\_6.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n6\_d30\_7.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n6\_d30\_8.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n6\_d30\_9.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n6\_d30\_10.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+\hline\end{tabular}
+\end{center}
+
+\newpage
+\begin{center}
+\renewcommand{\arraystretch}{1.4} 
+ \begin{tabular}{lrrrr}
+	\hline
+ & \multicolumn{2}{c}{\textbf{cplex}} & \multicolumn{2}{c}{\textbf{heuristic}}\\
+\textbf{Instance}  & \textbf{Temps (s)} & \textbf{Optimal ?}  & \textbf{Temps (s)} & \textbf{Optimal ?} \\\hline
+
+unequal\_n6\_d40\_1.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n6\_d40\_2.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n6\_d40\_3.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n6\_d40\_4.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n6\_d40\_5.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n6\_d40\_6.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n6\_d40\_7.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n6\_d40\_8.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n6\_d40\_9.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+unequal\_n6\_d40\_10.txt & 0.02 & 
+$\times$
+ & 0.0 & 
+$\times$
+\\
+\hline\end{tabular}
+\end{center}
+
+
+\end{document}
