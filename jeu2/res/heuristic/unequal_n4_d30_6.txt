@@ -1,0 +1,11 @@
+solution = [
+    4, 1, 2, 3,
+    3, 4, 1, 2,
+    2, 3, 4, 1,
+    1, 2, 3, 4,
+]
+solveTime = 0.0
+isOptimal = true
+original_grid = [4 0 0 3; 3 4 0 2; 0 0 0 1; 0 0 0 0]
+horizontal = [0 -1 0; -1 0 0; -1 0 0; 0 0 -1]
+vertical = [0 0 0 1; 0 0 0 1; 0 0 0 0]
