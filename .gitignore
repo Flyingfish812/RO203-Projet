@@ -2,3 +2,6 @@ Projet.pdf
 sudoku1.0
 testdata
 testres
+*.py
+*.lp
+*.tex
